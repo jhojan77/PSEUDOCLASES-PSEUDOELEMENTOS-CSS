@@ -1,0 +1,26 @@
+body{
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .boton{
+    height: 80px;
+    width: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+ }
+.boton:hover{
+    background-color: green;
+    color: white;;
+}
+
+.boton::before{
+    content: "Pasa por encima!";
+}
+
+.boton:hover::before{
+    content: "¡HECHO!";
+}
